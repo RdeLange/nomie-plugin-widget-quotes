@@ -18,6 +18,13 @@
     widthrefreshed = true
   }
 
+  function openEditor(){
+    let note2nomie = "REFLECTIONS ON FOLLOWING QUOTE FROM "+actualquote.author+":\n";
+    note2nomie = note2nomie + actualquote.text+"\n";
+    note2nomie = note2nomie + "=> "+"\n";
+    plugin.openNoteEditor(note2nomie);
+  }
+
   onMount(
   ()=>{
     init();
@@ -50,7 +57,7 @@
 </style>
 {#if widthrefreshed}
 <div class="quote">
-  <span><p style="font-size:{textsize};color:{textcolor}">"{actualquote.text}"</p></span>
+  <span on:click={()=>{openEditor()}} style="cursor:pointer"><p style="font-size:{textsize};color:{textcolor}">"{actualquote.text}"</p></span>
   </div>
   <div class="author">
   <span><p style="font-size:55%;color:{textcolor}">-{actualquote.author}</p></span>
