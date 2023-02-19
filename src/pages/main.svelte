@@ -55,7 +55,7 @@
           {#if widgets.length < 3}
           <Tile>
             <p class="no-widgets">
-              No Wordcloud Widgets? Oh dear, please add one to enhance your dashboard. 
+              No Quotes Widgets? Oh dear, please add one to enhance your dashboard. 
             </p>
             
           </Tile>
