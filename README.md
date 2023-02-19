@@ -85,7 +85,6 @@ In order to add a Quote Widget to your dashboard, please first go to your dashbo
 
 You will be directed to the following screen, please click on the Quotes Widget:
 
-
 ![](assets/20230219_223413_image.png)
 
 Now, please click on the Select a Widget selection field. You will be presented with the predefined quote lists and your own created lists:
@@ -97,6 +96,10 @@ For this example I picked the 🏛️Stoic-en list. Now, please click on the 'sa
 The Quotes Widget is now added tou your Nomie Dasboard:
 
 ![](assets/20230219_223719_image.png)
+
+### Bonus feature
+
+You can click on the quote in the widget which will bring you to the Nomie Note editor with the quote already prefilled, so you can add your own thought to reflect on the specific quote.
 
 ### Final words
 
