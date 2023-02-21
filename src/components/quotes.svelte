@@ -9,7 +9,7 @@
 
   function init(){
     if (actualquote.text.length > 119){
-        textsize = "55%";
+        textsize = "49%";
     }
     if (plugin.prefs.theme == "light"){
       textcolor = "black"}
